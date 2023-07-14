@@ -12,7 +12,7 @@ struct SwiftUISample100App: App {
     
     var body: some Scene {
         WindowGroup {
-            PickerView()
+            MyTabView()
         }
     }
 }

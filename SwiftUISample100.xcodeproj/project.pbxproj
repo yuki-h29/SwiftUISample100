@@ -14,8 +14,9 @@
 		236060F72A617F5600987942 /* SwiftUISample100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236060F62A617F5600987942 /* SwiftUISample100Tests.swift */; };
 		236061012A617F5600987942 /* SwiftUISample100UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061002A617F5600987942 /* SwiftUISample100UITests.swift */; };
 		236061032A617F5600987942 /* SwiftUISample100UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061022A617F5600987942 /* SwiftUISample100UITestsLaunchTests.swift */; };
-		236061112A617FC700987942 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061102A617FC700987942 /* DatePicker.swift */; };
+		236061112A617FC700987942 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061102A617FC700987942 /* DatePickerView.swift */; };
 		236061142A618C2500987942 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061132A618C2500987942 /* PickerView.swift */; };
+		236061172A61947A00987942 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236061162A61947A00987942 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +47,9 @@
 		236060FC2A617F5600987942 /* SwiftUISample100UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISample100UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		236061002A617F5600987942 /* SwiftUISample100UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISample100UITests.swift; sourceTree = "<group>"; };
 		236061022A617F5600987942 /* SwiftUISample100UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISample100UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		236061102A617FC700987942 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		236061102A617FC700987942 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		236061132A618C2500987942 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		236061162A61947A00987942 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		236060E42A617F5400987942 /* SwiftUISample100 */ = {
 			isa = PBXGroup;
 			children = (
+				236061152A61945D00987942 /* TabView */,
 				236061122A618C1500987942 /* Picker */,
 				2360610F2A617F7A00987942 /* DatePicker */,
 				236060E52A617F5400987942 /* SwiftUISample100App.swift */,
@@ -136,7 +139,7 @@
 		2360610F2A617F7A00987942 /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				236061102A617FC700987942 /* DatePicker.swift */,
+				236061102A617FC700987942 /* DatePickerView.swift */,
 			);
 			path = DatePicker;
 			sourceTree = "<group>";
@@ -147,6 +150,14 @@
 				236061132A618C2500987942 /* PickerView.swift */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		236061152A61945D00987942 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				236061162A61947A00987942 /* TabView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236061172A61947A00987942 /* TabView.swift in Sources */,
 				236060E82A617F5400987942 /* ContentView.swift in Sources */,
 				236060E62A617F5400987942 /* SwiftUISample100App.swift in Sources */,
 				236061142A618C2500987942 /* PickerView.swift in Sources */,
-				236061112A617FC700987942 /* DatePicker.swift in Sources */,
+				236061112A617FC700987942 /* DatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
