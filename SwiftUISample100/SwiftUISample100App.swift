@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUISample100App: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PickerView()
         }
     }
 }
