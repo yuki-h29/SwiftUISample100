@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231F10862A682C9500C24D26 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F10852A682C9500C24D26 /* SecondView.swift */; };
 		236060E62A617F5400987942 /* SwiftUISample100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236060E52A617F5400987942 /* SwiftUISample100App.swift */; };
-		236060E82A617F5400987942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236060E72A617F5400987942 /* ContentView.swift */; };
+		236060E82A617F5400987942 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236060E72A617F5400987942 /* FirstView.swift */; };
 		236060EA2A617F5600987942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236060E92A617F5600987942 /* Assets.xcassets */; };
 		236060ED2A617F5600987942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236060EC2A617F5600987942 /* Preview Assets.xcassets */; };
 		236060F72A617F5600987942 /* SwiftUISample100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236060F62A617F5600987942 /* SwiftUISample100Tests.swift */; };
@@ -37,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231F10852A682C9500C24D26 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		236060E22A617F5400987942 /* SwiftUISample100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236060E52A617F5400987942 /* SwiftUISample100App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISample100App.swift; sourceTree = "<group>"; };
-		236060E72A617F5400987942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		236060E72A617F5400987942 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		236060E92A617F5600987942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236060EC2A617F5600987942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		236060F22A617F5600987942 /* SwiftUISample100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISample100Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		231F10842A682C1100C24D26 /* ScreenTransitionTest */ = {
+			isa = PBXGroup;
+			children = (
+				236060E72A617F5400987942 /* FirstView.swift */,
+				231F10852A682C9500C24D26 /* SecondView.swift */,
+			);
+			path = ScreenTransitionTest;
+			sourceTree = "<group>";
+		};
 		236060D92A617F5400987942 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +111,11 @@
 		236060E42A617F5400987942 /* SwiftUISample100 */ = {
 			isa = PBXGroup;
 			children = (
+				236060E52A617F5400987942 /* SwiftUISample100App.swift */,
 				236061152A61945D00987942 /* TabView */,
 				236061122A618C1500987942 /* Picker */,
 				2360610F2A617F7A00987942 /* DatePicker */,
-				236060E52A617F5400987942 /* SwiftUISample100App.swift */,
-				236060E72A617F5400987942 /* ContentView.swift */,
+				231F10842A682C1100C24D26 /* ScreenTransitionTest */,
 				236060E92A617F5600987942 /* Assets.xcassets */,
 				236060EB2A617F5600987942 /* Preview Content */,
 			);
@@ -290,8 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231F10862A682C9500C24D26 /* SecondView.swift in Sources */,
 				236061172A61947A00987942 /* TabView.swift in Sources */,
-				236060E82A617F5400987942 /* ContentView.swift in Sources */,
+				236060E82A617F5400987942 /* FirstView.swift in Sources */,
 				236060E62A617F5400987942 /* SwiftUISample100App.swift in Sources */,
 				236061142A618C2500987942 /* PickerView.swift in Sources */,
 				236061112A617FC700987942 /* DatePickerView.swift in Sources */,

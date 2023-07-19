@@ -10,21 +10,30 @@ import SwiftUI
 struct MyTabView: View {
     var body: some View {
         TabView {
-            ContentView()
-                .tabItem {
-                    Label("Text", systemImage: "1.square.fill")
-                }
-            PickerView()
-                .tabItem {
-                    Label("Picker", systemImage: "2.square.fill")
-                }
-            DatePickerView()
-                .tabItem {
-                    Label("Date", systemImage: "3.square.fill")
-                }
+            NavigationView {
+                FirstView()
+            }
+            .tabItem {
+                Label("Text", systemImage: "1.square.fill")
+            }
+            
+            NavigationView {
+                PickerView()
+            }
+            .tabItem {
+                Label("Picker", systemImage: "2.square.fill")
+            }
+            
+            NavigationView {
+                DatePickerView()
+            }
+            .tabItem {
+                Label("Date", systemImage: "3.square.fill")
+            }
         }
     }
 }
+
 
 struct MyTabView_Previews: PreviewProvider {
     static var previews: some View {
