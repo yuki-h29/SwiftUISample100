@@ -30,6 +30,13 @@ struct MyTabView: View {
             .tabItem {
                 Label("Date", systemImage: "3.square.fill")
             }
+            
+            NavigationView {
+                PickerTransition()
+            }
+            .tabItem {
+                Label("Other", systemImage: "4.square.fill")
+            }
         }
     }
 }
