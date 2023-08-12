@@ -6,7 +6,9 @@
 //
 
 enum Destination {
-    case firstView
-    case secondView
-    case thirdView
+    case _1_ListView
+    case PokemonListView
+    case PopupView
+    case GithubAPIContentView
+    case CoreDataView
 }
