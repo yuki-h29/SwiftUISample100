@@ -7,6 +7,6 @@
 
 import SwiftUI
 
-struct SendMessage {
+struct SendMessageModel {
     var text: String
 }

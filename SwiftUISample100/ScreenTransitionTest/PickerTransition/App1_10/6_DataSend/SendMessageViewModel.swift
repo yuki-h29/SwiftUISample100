@@ -8,5 +8,5 @@
 import SwiftUI
 
 class SendMessageViewModel: ObservableObject {
-    @Published var message = SendMessage(text: "ここに入力した値を次の画面に送るよ")
+    @Published var message = SendMessageModel(text: "ここに入力した値を次の画面に送るよ")
 }
