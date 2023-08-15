@@ -29,6 +29,11 @@
 		2377EAC42A6D267B00C3D257 /* PopupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377EAC32A6D267B00C3D257 /* PopupModel.swift */; };
 		2377EAC62A6D26D400C3D257 /* PopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377EAC52A6D26D400C3D257 /* PopupViewModel.swift */; };
 		2377EAC82A6D284600C3D257 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377EAC72A6D284600C3D257 /* PopupView.swift */; };
+		23AD25A02A8BB924006E1FAB /* SendMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD259F2A8BB924006E1FAB /* SendMessageModel.swift */; };
+		23AD25A22A8BB947006E1FAB /* SendMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD25A12A8BB947006E1FAB /* SendMessageViewModel.swift */; };
+		23AD25A42A8BBB8E006E1FAB /* SendMessageFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD25A32A8BBB8E006E1FAB /* SendMessageFirstView.swift */; };
+		23AD25A62A8BBBAB006E1FAB /* SendMessageSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD25A52A8BBBAB006E1FAB /* SendMessageSecondView.swift */; };
+		23AD25A82A8BBBCD006E1FAB /* SendMessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD25A72A8BBBCD006E1FAB /* SendMessageContentView.swift */; };
 		23D1066A2A763A7B0064B320 /* GithubAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D106692A763A7B0064B320 /* GithubAPIModel.swift */; };
 		23D1066C2A763ACC0064B320 /* GithubAPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1066B2A763ACC0064B320 /* GithubAPIViewModel.swift */; };
 		23D1066E2A763B120064B320 /* GithubAPIContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1066D2A763B120064B320 /* GithubAPIContentView.swift */; };
@@ -87,6 +92,11 @@
 		2377EAC32A6D267B00C3D257 /* PopupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModel.swift; sourceTree = "<group>"; };
 		2377EAC52A6D26D400C3D257 /* PopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewModel.swift; sourceTree = "<group>"; };
 		2377EAC72A6D284600C3D257 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		23AD259F2A8BB924006E1FAB /* SendMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageModel.swift; sourceTree = "<group>"; };
+		23AD25A12A8BB947006E1FAB /* SendMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewModel.swift; sourceTree = "<group>"; };
+		23AD25A32A8BBB8E006E1FAB /* SendMessageFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageFirstView.swift; sourceTree = "<group>"; };
+		23AD25A52A8BBBAB006E1FAB /* SendMessageSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageSecondView.swift; sourceTree = "<group>"; };
+		23AD25A72A8BBBCD006E1FAB /* SendMessageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageContentView.swift; sourceTree = "<group>"; };
 		23D106692A763A7B0064B320 /* GithubAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPIModel.swift; sourceTree = "<group>"; };
 		23D1066B2A763ACC0064B320 /* GithubAPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPIViewModel.swift; sourceTree = "<group>"; };
 		23D1066D2A763B120064B320 /* GithubAPIContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPIContentView.swift; sourceTree = "<group>"; };
@@ -262,6 +272,7 @@
 				2377EABB2A6D1F7900C3D257 /* 3_ListViewAlert */,
 				23D106682A763A460064B320 /* 4_GithubAPI */,
 				23DD9A322A866D9D00E1B95C /* 5_CoreData */,
+				23AD259E2A8BB841006E1FAB /* 6_DataSend */,
 			);
 			path = App1_10;
 			sourceTree = "<group>";
@@ -284,6 +295,18 @@
 				2377EAC72A6D284600C3D257 /* PopupView.swift */,
 			);
 			path = 2_PopupView;
+			sourceTree = "<group>";
+		};
+		23AD259E2A8BB841006E1FAB /* 6_DataSend */ = {
+			isa = PBXGroup;
+			children = (
+				23AD259F2A8BB924006E1FAB /* SendMessageModel.swift */,
+				23AD25A12A8BB947006E1FAB /* SendMessageViewModel.swift */,
+				23AD25A32A8BBB8E006E1FAB /* SendMessageFirstView.swift */,
+				23AD25A52A8BBBAB006E1FAB /* SendMessageSecondView.swift */,
+				23AD25A72A8BBBCD006E1FAB /* SendMessageContentView.swift */,
+			);
+			path = 6_DataSend;
 			sourceTree = "<group>";
 		};
 		23D106682A763A460064B320 /* 4_GithubAPI */ = {
@@ -563,7 +586,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2377EAB62A69868600C3D257 /* SampleListView.swift in Sources */,
+				23AD25A02A8BB924006E1FAB /* SendMessageModel.swift in Sources */,
+				23AD25A62A8BBBAB006E1FAB /* SendMessageSecondView.swift in Sources */,
 				2377EAC62A6D26D400C3D257 /* PopupViewModel.swift in Sources */,
+				23AD25A22A8BB947006E1FAB /* SendMessageViewModel.swift in Sources */,
 				23DD9A3E2A867C5300E1B95C /* MemberList+CoreDataProperties.swift in Sources */,
 				23DD9A422A87079200E1B95C /* CoreDataStack.swift in Sources */,
 				23D1066C2A763ACC0064B320 /* GithubAPIViewModel.swift in Sources */,
@@ -571,6 +597,7 @@
 				23DD9A402A867EB000E1B95C /* MemberList+CoreDataClass.swift in Sources */,
 				2377EAC42A6D267B00C3D257 /* PopupModel.swift in Sources */,
 				231F10862A682C9500C24D26 /* SecondView.swift in Sources */,
+				23AD25A42A8BBB8E006E1FAB /* SendMessageFirstView.swift in Sources */,
 				23DD9A3A2A86781800E1B95C /* MemberListView.swift in Sources */,
 				2346583A2A74A06200EB1459 /* User.swift in Sources */,
 				236061172A61947A00987942 /* TabView.swift in Sources */,
@@ -586,6 +613,7 @@
 				236061142A618C2500987942 /* PickerView.swift in Sources */,
 				23DD9A382A8671CB00E1B95C /* MemberListViewModel.swift in Sources */,
 				2346583C2A74A07100EB1459 /* UserViewModel.swift in Sources */,
+				23AD25A82A8BBBCD006E1FAB /* SendMessageContentView.swift in Sources */,
 				2377EAC12A6D22CD00C3D257 /* PokemonListView.swift in Sources */,
 				236061112A617FC700987942 /* DatePickerView.swift in Sources */,
 				23D1066A2A763A7B0064B320 /* GithubAPIModel.swift in Sources */,

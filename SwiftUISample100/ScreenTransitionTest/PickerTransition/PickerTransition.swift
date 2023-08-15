@@ -20,6 +20,7 @@ struct PickerTransition: View {
                     Text("PopupView").tag(Destination.PopupView)
                     Text("GithubAPIView").tag(Destination.GithubAPIContentView)
                     Text("CoreDataView").tag(Destination.CoreDataView)
+                    Text("SendMessageView").tag(Destination.SendMassage)
                     
                 }
                 .pickerStyle(WheelPickerStyle())
@@ -42,7 +43,8 @@ struct PickerTransition: View {
                 case .CoreDataView:
                     
                     NavigationLink("Go to CoreData", destination: MemberListView(viewModel: MemberListViewModel(context: CoreDataStack.shared.context)))
-                    
+                case .SendMassage:
+                    NavigationLink("Go to SendMassegeView", destination: SendMessageContentView())
                 }
                 
             }

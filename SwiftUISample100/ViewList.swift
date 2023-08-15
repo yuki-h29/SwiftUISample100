@@ -11,4 +11,5 @@ enum Destination {
     case PopupView
     case GithubAPIContentView
     case CoreDataView
+    case SendMassage
 }
