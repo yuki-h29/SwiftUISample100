@@ -21,7 +21,8 @@ struct SendMessageFirstView: View {
             Text(viewModel.message.text)
             Spacer().frame(height: 20)
             
-            NavigationLink("Go to SecondView", destination: SendMessageSecondView(viewModel: viewModel))
+            NavigationLink("Go to SecondView",
+                           destination: SendMessageSecondView(viewModel: SendMessageViewModel()))
         }
         .padding()  // この行を追加して、ビュー全体にパディングを適用
     }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// エントリーポイント
 struct SendMessageContentView: View {
     var viewModel = SendMessageViewModel()
 
